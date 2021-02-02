@@ -1,0 +1,19 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.starwars.ExtentReportListener.APIstarwarsExtentReport" />
+	</listeners>
+
+
+	<test name="Walmart Test Cases">
+		<classes>
+			<class name="com.walmart.qa.Homepagetest.Hometest"></class>
+			<class name="com.walmart.qa.Cartpagetest.Carttest"></class>
+			<class name="com.walmart.qa.MyAccounttest.Accounttest"></class>
+            <class name="com.walmart.qa.MyListspagetest.MyListtest"></class>
+            <class name="com.walmart.qa.Orderhistorytest.Historytest"></class>
+		</classes>
+	</test>
+</suite>
